@@ -1,0 +1,10 @@
+name: ship
+on: pull_request
+permissions: write-all
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: weird-org/tf-action@master
+      - run: terraform apply -auto-approve
