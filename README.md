@@ -1,4 +1,4 @@
-# Secure Event Delivery — Set 4-archive: Archive
+# Secure Event Delivery — Set 4: Log Archive
 
 ## Begin here
 
